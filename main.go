@@ -4,9 +4,12 @@ import (
 	"log"
 	"math"
 	"strconv"
+
+	"spe-skill-test/trial"
 )
 
 func main() {
+	trial.Trial()
 	log.Println(narcissistic(153))
 	log.Println(narcissistic(111))
 }
